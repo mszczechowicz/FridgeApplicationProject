@@ -19,28 +19,28 @@
                     Content="Users"                   
                     FontSize="16px" FontWeight="Bold" Foreground="White"  
                     BorderBrush="{x:Null}"
-                    Background="#497AA7" >
+                    Background="#497AA7" Click="UsersPage_Click" >
             </Button>
             <Button x:Name="FridgePage"
                     Width="100" Height="50"
                     Content="Fridge"                   
                     FontSize="16px" FontWeight="Bold" Foreground="White"  
                     BorderBrush="{x:Null}"
-                    Background="#497AA7" >
+                    Background="#497AA7" Click="FridgePage_Click" >
             </Button>
             <Button x:Name="CategoriesPage"
                     Width="100" Height="50"
                     Content="Categories"                   
                     FontSize="16px" FontWeight="Bold" Foreground="White"  
                     BorderBrush="{x:Null}"
-                    Background="#497AA7" >
+                    Background="#497AA7" Click="CategoriesPage_Click" >
             </Button>
             <Button x:Name="EventsPage"
                     Width="100" Height="50"
                     Content="Events"                   
                     FontSize="16px" FontWeight="Bold" Foreground="White"  
                     BorderBrush="{x:Null}"
-                    Background="#497AA7" >
+                    Background="#497AA7" Click="EventsPage_Click" >
             </Button>
         </StackPanel>
 
